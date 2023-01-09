@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: gray;
+  height: 50px;
+  padding: 15px;
+  width: 100%;
+  gap: 15px;
+}
+
+header a {
+  border: 1px solid white;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+a.active {
+  background-color: white;
+  color: gray;
+}
+
+.news_banner {
+  height: 30px;
+  background: lightblue;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app > div {
+  width: 100%;
+}
+
+.app > div > .page-details {
+  width: 100%;
+}
+.home-page .school_details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.home-page .school_details label {
+  width: 30%;
+}
+
+.home-page label::after {
+  content: "   :   ";
+}
+
+.contact_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_page > div {
+  width: 500px;
+}
+
+.contact_page input {
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+}
+.contact_page textarea {
+  height: 100px;
+  width: 100%;
+}
+
+.contact_page > div {
+  text-align: right;
+}
